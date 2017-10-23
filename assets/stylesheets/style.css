@@ -54,7 +54,7 @@ table {
 body {
   background: #293f50;
   color: #888;
-  font: 400 16px/22px , "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*
@@ -125,18 +125,8 @@ cite, em {
   font-style: italic;
 }
 
-/*
-  ========================================
-  Leads
-  ========================================
-*/
-
-.lead {
-  text-align: center;
-}
-.lead p {
-  font-size: 21px;
-  line-height: 33px;
+p a {
+  border-bottom: 1px solid #dfe2e5;
 }
 
 
@@ -165,16 +155,11 @@ a {
   color: #648880;
 }
 
-
 /*
   ========================================
   teaser
   ========================================
 */
-
-.teaser a:hover h3 {
-  color: #a9b2b9;
-}
 
 .teaser img {
   border-radius: 5px;
@@ -182,11 +167,6 @@ a {
   margin-bottom: 22px;
   max-width: 100%
 }
-
-p a {
-  border-bottom: 1px solid #dfe2e5;
-}
-
 
 /*
   ========================================
@@ -203,16 +183,6 @@ p a {
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: uppercase;
-}
-
-.btn-alt {
-  border: 1px solid #dfe2e5;
-  padding: 10px 30px;
-}
-
-.btn-alt:hover {
-  background: #fff;
-  color: #648880;
 }
 
 /*
@@ -296,8 +266,8 @@ p a {
 .primary-footer {
   color: #648880;
   font-size: 14px;
-  padding-bottom: 44px;
-  padding-top: 44px;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 .primary-footer small {
@@ -420,6 +390,15 @@ textarea {
 }
 .btn-default:hover {
   background: #77a198;
+}
+
+
+.lead {
+  text-align: center;
+}
+.lead p {
+  font-size: 21px;
+  line-height: 33px;
 }
 
 /*
