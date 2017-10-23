@@ -215,27 +215,6 @@ p a {
   color: #648880;
 }
 
-
-/*
-  ========================================
-  Home
-  ========================================
-*/
-
-.hero {
-  color: #fff;
-  line-height: 44px;
-  padding: 22px 80px 66px 80px;
-  text-align: center;
-}
-.hero h2 {
-  font-size: 36px;
-}
-.hero p {
-  font-size: 24px;
-  font-weight: 200;
-}
-
 /*
   ========================================
   Clearfix
@@ -382,29 +361,24 @@ p a {
 
 /*
   ========================================
-  Venue
+  School
   ========================================
 */
 
-.venue-theatre {
+.school-address {
   margin-bottom: 66px;
 }
-.venue-hotel {
+.school-website {
   margin-bottom: 22px;
 }
-.venue-map {
+.school-map {
   height: 264px;
 }
 /*
   ========================================
-  Register
+  Contact
   ========================================
 */
-
-.why-attend {
-  list-style: square;
-  margin: 0 0 22px 30px;
-}
 
 form {
   margin-bottom: 22px;
